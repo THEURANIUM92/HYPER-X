@@ -12,7 +12,7 @@ async def awake(event):
   HYPERX += "𝐅𝐔𝐋𝐋 𝐔𝐏𝐃𝐀𝐓𝐄𝐃\n\n"
   HYPERX += "𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 : 𝟭.𝟮𝟯.𝟬 𝐋𝐀𝐓𝐄𝐒𝐓\n\n"
   HYPERX += "𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐄 𝐇𝐄𝐑𝐄"
-  BUTTON = [[Button.url("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", "https://t.me/HYPER_X_SUPPORT"), Button.url("𝐔𝐏𝐃𝐀𝐓𝐄𝐒", "https://t.me/HYPERx_UPDATES")]]
+  BUTTON = [[Button.url("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", "https://t.me/URANIUMXSUPPORT"), Button.url("𝐔𝐏𝐃𝐀𝐓𝐄𝐒", "https://t.me/HYPERx_UPDATES")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=HYPERX,  buttons=BUTTON)
 
 
